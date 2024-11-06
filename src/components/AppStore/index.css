@@ -1,0 +1,63 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  width: 250px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #7b8794;
+  border-radius: 10px;
+}
+
+.input-element {
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border-style: none;
+  font-size: 18px;
+  outline: none;
+}
+
+.search-icon {
+  height: 28px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.tabItems {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.apps {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.apps-list {
+  width: 700px;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 40px;
+  margin-bottom: 40px;
+}
